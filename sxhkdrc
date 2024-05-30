@@ -154,7 +154,7 @@ super + k
     bsp-layout set tall
 
 super + l
-    bsp-layout set wide 
+    $HOME/.config/sxhkd/scripts/cambiar_layout.sh
 
 
 

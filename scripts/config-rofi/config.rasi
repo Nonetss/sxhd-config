@@ -61,7 +61,7 @@ listbox {
 inputbar {
     enabled:                     true;
     spacing:                     10px;
-    padding:                     80px 60px;
+    padding:                     20px 20px;
     background-color:            transparent;
     text-color:                  @foreground;
     orientation:                 horizontal;
@@ -121,7 +121,7 @@ listview {
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
-    layout:                      horizontal;  /* Layout horizontal para mostrar en cuadrícula */
+    layout:                      vertical;  /* Layout horizontal para mostrar en cuadrícula */
     reverse:                     false;
     fixed-height:                true;
     fixed-columns:               true;

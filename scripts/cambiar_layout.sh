@@ -5,7 +5,7 @@ CONFIG_DIR="$HOME/.config/sxhkd/scripts"
 ICON_DIR="$CONFIG_DIR/layouts"
 ROFI_CONFIG="$CONFIG_DIR/config-rofi/config.rasi"
 
-# Opciones de layout con iconos
+# Opciones de layout con iconos (usando el formato de iconos de rofi)
 LAYOUTS=("tall:$ICON_DIR/tall.jpeg"
          "rtall:$ICON_DIR/rtall.jpeg"
          "wide:$ICON_DIR/wide.jpeg"
