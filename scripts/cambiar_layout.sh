@@ -31,39 +31,30 @@ SELECTED_LAYOUT=$(echo -e "$MENU" | rofi -dmenu -theme "$ROFI_CONFIG" -p "Selecc
 case $SELECTED_LAYOUT in
     tall)
         bsp-layout set tall
-        feh --bg-scale "$ICON_DIR/tall.jpeg"
         ;;
     rtall)
         bsp-layout set rtall
-        feh --bg-scale "$ICON_DIR/rtall.jpeg"
         ;;
     wide)
         bsp-layout set wide
-        feh --bg-scale "$ICON_DIR/wide.jpeg"
         ;;
     rwide)
         bsp-layout set rwide
-        feh --bg-scale "$ICON_DIR/rwide.jpeg"
         ;;
     grid)
         bsp-layout set grid
-        feh --bg-scale "$ICON_DIR/grid.jpeg"
         ;;
     rgrid)
         bsp-layout set rgrid
-        feh --bg-scale "$ICON_DIR/rgrid.jpeg"
         ;;
     even)
         bsp-layout set even
-        feh --bg-scale "$ICON_DIR/even.jpeg"
         ;;
     tiled)
         bsp-layout set tiled
-        feh --bg-scale "$ICON_DIR/tiled.jpeg"
         ;;
     monocle)
         bsp-layout set monocle
-        feh --bg-scale "$ICON_DIR/monocle.jpeg"
         ;;
     *)
         echo "Layout no válido"
