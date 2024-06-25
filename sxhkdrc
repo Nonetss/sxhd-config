@@ -4,10 +4,10 @@
 
 # terminal emulator
 super + Return
-  /$HOME/.cargo/bin/alacritty
+  /usr/bin/alacritty
 # program launcher
 super + d
-	/$HOME/.config/rofi-nonete/launchers/type-6/launcher.sh
+	$HOME/.config/rofi/launchers/type-6/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -184,7 +184,7 @@ super + alt + {Down, j}
 # Google-Chrome
 
 super + shift + g
-	google-chrome
+	/usr/bin/chromium
 
 # Open Burpsuite Professional
 
@@ -204,11 +204,12 @@ ctrl + shift + P
 
 # Subir volumen con Alt + Flecha Derecha
 ctrl + alt + Right
-    amixer -D pulse sset Master 5%+
+    amixer -D default sset Master 5%+
 
 # Bajar volumen con Alt + Flecha Izquierda
 ctrl + alt + Left
-    amixer -D pulse sset Master 5%-
+    amixer -D default sset Master 5%-
+
 
 
 
