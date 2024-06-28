@@ -184,7 +184,7 @@ super + alt + {Down, j}
 # Google-Chrome
 
 super + shift + g
-	/usr/bin/chromium
+	/usr/bin/chromium --new-window
 
 # Open Burpsuite Professional
 
